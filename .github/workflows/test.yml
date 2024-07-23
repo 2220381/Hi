@@ -21,4 +21,4 @@ jobs:
           prnub1=${GITHUB_REF_NAME%/merge}
           echo ${prnub1}
           echo ${{ github.ref }}
-
+          echo ${GITHUB_REF_NAME}
