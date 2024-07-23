@@ -18,7 +18,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Heloo
         run: |
-          prnub1=${GITHUB_REF_NAME%/MERGE}
+          prnub1=${GITHUB_REF_NAME%/merge}
           echo ${prnub1}
           echo ${GITHUB_REF_NAME}
 
