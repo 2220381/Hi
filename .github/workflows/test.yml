@@ -20,5 +20,5 @@ jobs:
         run: |
           prnub1=${GITHUB_REF_NAME%/merge}
           echo ${prnub1}
-          echo ${GITHUB_REF_NAME}
+          echo ${{ github.ref }}
 
