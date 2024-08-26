@@ -22,4 +22,8 @@ jobs:
           echo ${prnub1}
           echo ${{ github.ref }}
           echo ${GITHUB_REF_NAME}
-          echo ${GITHUB_REF_NAME/\//%252F} 
+          echo ${GITHUB_REF_NAME/\//%252F}
+          echo ${GITHUB_ACTION_PATH}
+
+
+          
